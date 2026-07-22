@@ -76,7 +76,7 @@ function Testimonials() {
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="anim-up label-eyebrow" style={{ color: ACCENT_LIGHT, animationDelay: "0.6s" }}>Testimonials</div>
           <h1 className="anim-up mt-6 max-w-4xl text-4xl sm:text-5xl lg:text-7xl text-white break-words" style={{ fontWeight: 300, animationDelay: "0.9s", letterSpacing: "-0.02em" }}>
-            In the words of <span style={{ color: ACCENT_LIGHT }}>our partners.</span>
+            In the words of <span style={{ color: ACCENT_LIGHT }}>our partners</span>
           </h1>
         </div>
       </section>
