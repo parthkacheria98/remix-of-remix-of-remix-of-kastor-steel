@@ -110,7 +110,7 @@ function About() {
                 style={{ background: "#1C2B3A" }}
               >
                 <img
-                  src={janilShahAsset.url}
+                  src={janilShahImage}
                   alt="Janil Shah, CEO of Kastor International FZE"
                   className="absolute inset-0 h-full w-full object-cover"
                   style={{ objectPosition: "50% 12%", transform: "scale(1.2)", transformOrigin: "50% 20%" }}
