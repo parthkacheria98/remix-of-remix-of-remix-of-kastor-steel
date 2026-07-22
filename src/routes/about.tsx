@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useReveal } from "@/lib/reveal";
 import { Socials } from "@/components/Socials";
 import { Globe, ShieldCheck, Layers, Handshake } from "lucide-react";
-import janilShahAsset from "@/assets/janil-shah.jpg.asset.json";
+import janilShahImage from "@/assets/janil-shah.jpg";
 
 
 export const Route = createFileRoute("/about")({
