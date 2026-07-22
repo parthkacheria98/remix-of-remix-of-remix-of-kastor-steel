@@ -15,8 +15,9 @@ export function Footer() {
               className="h-16 w-auto md:h-20"
             />
             <p
-              className="mt-5 max-w-md text-sm"
+              className="mt-5 max-w-md text-base md:text-lg"
               style={{ color: "#A8B7C4", lineHeight: 1.8, fontWeight: 300, whiteSpace: "pre-line" }}
+
             >
               Our commitment is etched in steel.{"\n\n\n"}
               Distribution of prime CRGO Electrical Steel to manufacturers around the globe
