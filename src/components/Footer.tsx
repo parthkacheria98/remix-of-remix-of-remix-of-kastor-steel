@@ -61,25 +61,25 @@ export function Footer() {
         </div>
 
         <div
-          className="mt-16 flex flex-col gap-2 border-t pt-6 text-xs md:flex-row md:items-center md:justify-between"
+          className="mt-16 border-t pt-6 text-xs"
           style={{ borderColor: "rgba(234,238,242,0.12)", color: "#A8B7C4" }}
         >
-          <div>
+          <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
             <div>© {new Date().getFullYear()} Kastor International FZE. All rights reserved.</div>
-            <div className="mt-1.5 opacity-80">
-              Made by{" "}
-              <a
-                href="https://www.platify.cloud"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline transition-colors"
-                style={{ color: "#7BA7C2" }}
-              >
-                Platify
-              </a>
-            </div>
+            <div>Hamriyah Free Zone · Sharjah, United Arab Emirates</div>
           </div>
-          <div>Hamriyah Free Zone · Sharjah, United Arab Emirates</div>
+          <div className="mt-4 text-center">
+            Made by{" "}
+            <a
+              href="https://www.platify.cloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline transition-colors"
+              style={{ color: "#7BA7C2" }}
+            >
+              Platify
+            </a>
+          </div>
         </div>
       </div>
     </footer>
