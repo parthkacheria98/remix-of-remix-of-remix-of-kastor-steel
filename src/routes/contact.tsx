@@ -40,7 +40,7 @@ function Contact() {
           
           <div className="anim-up label-eyebrow mt-8" style={{ color: "#7BA7C2", animationDelay: "0.6s" }}>Contact</div>
           <h1 className="anim-up mt-6 max-w-4xl text-5xl lg:text-7xl text-white" style={{ fontWeight: 300, animationDelay: "0.9s", letterSpacing: "-0.02em" }}>
-            Let's <span style={{ color: "#7BA7C2" }}>talk steel.</span>
+            Let's <span style={{ color: "#7BA7C2" }}>talk steel</span>
           </h1>
           <p className="anim-up mt-8 max-w-2xl text-lg" style={{ color: "rgba(255,255,255,0.7)", fontWeight: 300, lineHeight: 1.8, animationDelay: "1.2s" }}>
             Got a requirement? Drop us a note and we'll be in touch.
