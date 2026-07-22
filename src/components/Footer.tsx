@@ -19,7 +19,7 @@ export function Footer() {
               style={{ color: "#A8B7C4", lineHeight: 1.8, fontWeight: 300, whiteSpace: "pre-line" }}
 
             >
-              Our commitment is etched in steel.{"\n\n\n"}
+              Our commitment is etched in steel{"\n\n\n"}
               Distribution of prime CRGO Electrical Steel to manufacturers around the globe
 
             </p>

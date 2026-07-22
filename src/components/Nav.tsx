@@ -49,7 +49,7 @@ export function Nav() {
             className="text-[0.68rem] sm:text-[0.72rem] md:text-[0.78rem] italic leading-relaxed"
             style={{ color: taglineColor, fontWeight: 500, letterSpacing: "0.12em", whiteSpace: "pre-line" }}
           >
-            Our commitment is etched in steel.{"\n"}
+            Our commitment is etched in steel{"\n"}
           </p>
         </Link>
 
