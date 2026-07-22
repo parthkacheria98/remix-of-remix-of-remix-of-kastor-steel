@@ -113,7 +113,7 @@ function About() {
                   src={janilShahImage}
                   alt="Janil Shah, CEO of Kastor International FZE"
                   className="absolute inset-0 h-full w-full object-cover"
-                  style={{ objectPosition: "58% 30%", transform: "scale(1.05)", transformOrigin: "58% 60%" }}
+                  style={{ objectPosition: "50% 50%", transform: "scale(1.43)", transformOrigin: "50% 50%" }}
 
                 />
 
