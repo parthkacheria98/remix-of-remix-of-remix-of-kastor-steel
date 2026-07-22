@@ -114,18 +114,13 @@ function About() {
                   style={{ objectPosition: "50% 12%" }}
                 />
 
-                <div
-                  className="absolute inset-x-0 bottom-0 px-6 pb-6 pt-24 sm:px-7 sm:pb-7"
-                  style={{
-                    background:
-                      "linear-gradient(180deg, rgba(28,43,58,0) 0%, rgba(28,43,58,0.45) 45%, rgba(28,43,58,0.85) 100%)",
-                  }}
-                >
+                <div className="absolute inset-x-0 bottom-0 px-6 pb-6 sm:px-8 sm:pb-8">
                   <div className="label-eyebrow" style={{ color: ACCENT_LIGHT }}>Janil Shah</div>
-                  <div className="mt-2 text-sm text-white" style={{ fontWeight: 300 }}>
+                  <div className="mt-2 text-white text-xl sm:text-2xl" style={{ fontWeight: 300, letterSpacing: "-0.01em" }}>
                     CEO, Kastor International FZE
                   </div>
                 </div>
+
               </div>
 
             </div>
