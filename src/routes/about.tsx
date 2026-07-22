@@ -39,7 +39,7 @@ function About() {
           
           <div className="anim-up label-eyebrow mt-8" style={{ color: ACCENT_LIGHT, animationDelay: "0.6s" }}>About Us</div>
           <h1 className="anim-up mt-6 max-w-4xl text-5xl lg:text-7xl text-white" style={{ fontWeight: 300, animationDelay: "0.9s", letterSpacing: "-0.02em" }}>
-            A decade of trust in <span style={{ color: ACCENT_LIGHT }}>Electrical Steel.</span>
+            A decade of trust in <span style={{ color: ACCENT_LIGHT }}>Electrical Steel</span>
           </h1>
         </div>
       </section>
