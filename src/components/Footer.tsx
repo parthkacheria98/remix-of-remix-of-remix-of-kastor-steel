@@ -15,7 +15,7 @@ export function Footer() {
               className="h-16 w-auto md:h-20"
             />
             <p
-              className="mt-5 max-w-md text-base md:text-lg"
+              className="mt-5 max-w-md text-sm md:text-base"
               style={{ color: "#A8B7C4", lineHeight: 1.8, fontWeight: 300, whiteSpace: "pre-line" }}
 
             >
