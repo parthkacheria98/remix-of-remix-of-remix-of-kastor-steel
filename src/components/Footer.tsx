@@ -67,7 +67,7 @@ export function Footer() {
           <div>
             <div>© {new Date().getFullYear()} Kastor International FZE. All rights reserved.</div>
             <div className="mt-1.5 opacity-80">
-              Made with ❤️ by{" "}
+              Made by{" "}
               <a
                 href="https://www.platify.cloud"
                 target="_blank"
