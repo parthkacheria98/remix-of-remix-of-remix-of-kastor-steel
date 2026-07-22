@@ -68,7 +68,7 @@ export function Footer() {
             <div>© {new Date().getFullYear()} Kastor International FZE. All rights reserved.</div>
             <div>Hamriyah Free Zone · Sharjah, United Arab Emirates</div>
           </div>
-          <div className="mt-4 text-center">
+          <div className="mt-10 text-center">
             Made by{" "}
             <a
               href="https://www.platify.cloud"
