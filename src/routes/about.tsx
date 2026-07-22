@@ -121,8 +121,8 @@ function About() {
                       "linear-gradient(180deg, rgba(28,43,58,0) 0%, rgba(28,43,58,0.45) 45%, rgba(28,43,58,0.85) 100%)",
                   }}
                 >
-                  <div className="text-sm sm:text-base uppercase" style={{ color: ACCENT_LIGHT, letterSpacing: "0.25em", fontWeight: 300 }}>Janil Shah</div>
-                  <div className="mt-1.5 text-base sm:text-lg text-white" style={{ fontWeight: 300 }}>
+                  <div className="label-eyebrow" style={{ color: ACCENT_LIGHT }}>Janil Shah</div>
+                  <div className="mt-2 text-sm text-white" style={{ fontWeight: 300 }}>
                     CEO, Kastor International FZE
                   </div>
                 </div>
