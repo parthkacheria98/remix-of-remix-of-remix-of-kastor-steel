@@ -9,10 +9,12 @@ import janilShahImage from "@/assets/janil-shah.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us · Kastor International FZE" },
-      { name: "description", content: "Founded in 2016 in the UAE, Kastor International is led by CEO Janil Shah, with 15+ years of experience in the Electrical Steel industry." },
-      { property: "og:title", content: "About Kastor International FZE" },
-      { property: "og:description", content: "A UAE-registered global distributor of Electrical Steel, led by founder Janil Shah." },
+      { title: "About Kastor International — Founder Janil Shah | CRGO Electrical Steel" },
+      { name: "description", content: "Founded in 2016 in Sharjah, UAE, Kastor International FZE is led by Janil Shah, a second-generation electrical steel specialist with 15+ years in CRGO sourcing and global distribution." },
+      { property: "og:title", content: "About Kastor International FZE — Led by Janil Shah" },
+      { property: "og:description", content: "A UAE-registered global distributor of prime electrical steel, founded on two decades of family experience in the CRGO industry." },
+      { name: "twitter:title", content: "About Kastor International FZE" },
+      { name: "twitter:description", content: "Founder-led, UAE-based, globally connected. The story behind Kastor International." },
     ],
   }),
   component: About,
