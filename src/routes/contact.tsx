@@ -6,10 +6,12 @@ import { Socials } from "@/components/Socials";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact · Kastor International FZE" },
-      { name: "description", content: "Get in touch with Kastor International FZE for Electrical Steel inquiries. Based in Hamriyah Free Zone, Sharjah, UAE." },
+      { title: "Contact Kastor International FZE — CRGO Electrical Steel Enquiries" },
+      { name: "description", content: "Request a quote for prime CRGO electrical steel coils or start a long-term supply partnership. Kastor International FZE — Hamriyah Free Zone, Sharjah, UAE." },
       { property: "og:title", content: "Contact Kastor International FZE" },
-      { property: "og:description", content: "Request a quote or start a long-term supply partnership." },
+      { property: "og:description", content: "Reach out for CRGO electrical steel enquiries, quotes, and long-term supply partnerships. Based in Sharjah, UAE — serving 22+ countries." },
+      { name: "twitter:title", content: "Contact Kastor International FZE" },
+      { name: "twitter:description", content: "CRGO electrical steel enquiries and long-term supply partnerships. Sharjah, UAE." },
     ],
   }),
   component: Contact,
