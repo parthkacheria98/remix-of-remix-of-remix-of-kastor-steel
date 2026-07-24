@@ -59,8 +59,10 @@ export function WorldMap() {
       const labelHalo = "#FFFFFF";
 
       const svg = d3.select(el).append("svg")
-        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("viewBox", `0 -30 ${width} ${height + 40}`)
         .attr("width", "100%")
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .style("overflow", "visible")
         .attr("role", "img")
         .attr("aria-label", "World map with arrows from Dubai to 22 countries");
 
