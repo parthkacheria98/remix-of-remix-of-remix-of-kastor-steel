@@ -11,10 +11,12 @@ const coilEdges = { url: "/assets/coil-edges.jpeg" };
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kastor International FZE · Global Supplier of Prime CRGO Electrical Steel" },
-      { name: "description", content: "Full-width and custom-slitted CRGO coils. UAE-registered, globally connected distribution of prime Electrical Steel." },
-      { property: "og:title", content: "Kastor International FZE · Prime CRGO Electrical Steel" },
-      { property: "og:description", content: "Global distribution of Electrical Steel, built on trust." },
+      { title: "Kastor International FZE — Prime CRGO Electrical Steel Supplier | UAE" },
+      { name: "description", content: "UAE-based global distributor of prime CRGO electrical steel for transformer manufacturers. Full-width and custom-slitted coils, BIS/PGCIL/PSPCL certified for India, delivered across 22+ countries." },
+      { property: "og:title", content: "Kastor International FZE — Prime CRGO Electrical Steel, Globally Distributed" },
+      { property: "og:description", content: "A decade of trust in electrical steel. Prime CRGO coils sourced globally, distributed reliably — from Sharjah, UAE to transformer manufacturers worldwide." },
+      { name: "twitter:title", content: "Kastor International FZE — Prime CRGO Electrical Steel" },
+      { name: "twitter:description", content: "Global distribution of prime CRGO electrical steel. UAE-registered, certified for India, trusted across four continents." },
     ],
   }),
   component: Home,

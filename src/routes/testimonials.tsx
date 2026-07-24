@@ -5,10 +5,12 @@ import { useReveal } from "@/lib/reveal";
 export const Route = createFileRoute("/testimonials")({
   head: () => ({
     meta: [
-      { title: "Testimonials · Kastor International FZE" },
-      { name: "description", content: "What clients and partners say about working with Kastor International FZE and CEO Janil Shah." },
-      { property: "og:title", content: "Testimonials · Kastor International FZE" },
-      { property: "og:description", content: "Client and partner reflections on working with Kastor International FZE." },
+      { title: "Testimonials — What Partners Say About Kastor International FZE" },
+      { name: "description", content: "Two decades of relationships in electrical steel. Read what mill executives, industry veterans, and long-term partners say about working with Janil Shah and Kastor International FZE." },
+      { property: "og:title", content: "Testimonials — Kastor International FZE" },
+      { property: "og:description", content: "Reflections from mill executives and industry partners on two decades of working with Janil Shah in the electrical steel industry." },
+      { name: "twitter:title", content: "Testimonials — Kastor International FZE" },
+      { name: "twitter:description", content: "What partners and industry veterans say about Kastor International FZE." },
     ],
   }),
   component: Testimonials,
